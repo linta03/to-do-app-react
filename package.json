@@ -52,7 +52,7 @@
   "main": "npm run deploy",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/linta03/to-do-app-react.git"
+    "url": "https://github.com/linta03/to-do-app-react.git"
   },
   "keywords": [
     "todo"
