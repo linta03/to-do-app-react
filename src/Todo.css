@@ -115,3 +115,11 @@ input{
     border-radius: 10px;
 
   }
+  @media (min-length: 280px) and (max-length: 370px){
+    .head{
+        height: 14vh;
+    }
+    .list{
+        height: 26%;
+    }
+  }

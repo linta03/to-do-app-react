@@ -1,5 +1,6 @@
 {
   "name": "to-do-app-react",
+  "homepage": "https://linta03.github.io/react-gh-pages",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -19,6 +20,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -41,5 +44,22 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "npm run deploy",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linta03/to-do-app-react.git"
+  },
+  "keywords": [
+    "todo"
+  ],
+  "author": "linta Rabail",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/linta03/to-do-app-react/issues"
   }
 }
